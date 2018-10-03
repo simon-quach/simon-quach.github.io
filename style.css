@@ -1,0 +1,101 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+    color:white;
+}
+h1, h2, h3, h4 {
+    font-family: 'Bitter', serif;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0);
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-size:50px;
+}
+
+#nav li a:hover{
+    background-color: gray;
+}
+
+#content{
+    border: solid white 2px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    text-align: center;
+    padding-bottom: 16px;
+    background-color: rgba(255,255,255,0.05);
+}
+
+table{
+    margin: auto;
+}
+
+#content ul, #content ol {
+    width: 25%;
+    margin: auto;
+}
+
+#resumename{
+    text-align:center;
+}
+
+#index {
+    background-image: url(indexbackground.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+    color:white;
+}
+
+#indexname {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-shadow: 5px 5px #000000;
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#bottomright {
+    position: absolute;
+    bottom: 10px;
+    right: 16px;
+}
+
+#bottomright1 {
+    position: absolute;
+    bottom: 10px;
+    right: 64px;
+}
+
+#bottomleft {
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+}
